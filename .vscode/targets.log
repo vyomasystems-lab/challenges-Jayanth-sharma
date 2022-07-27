@@ -1,0 +1,359 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jul 27 03:11:12 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+RUBY_VERSION = ruby-2.7.6
+# automatic
+?F = $(notdir $?)
+# environment
+GP_OPEN_EDITOR = /ide/bin/remote-cli/gitpod-code
+# default
+.SHELLFLAGS := -c
+# environment
+SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
+# environment
+VSX_REGISTRY_URL = https://open-vsx.gitpod.io
+# environment
+GRADLE_HOME = /home/gitpod/.sdkman/candidates/gradle/current
+# environment
+rvm_path = /home/gitpod/.rvm
+# environment
+SUPERVISOR_ADDR = localhost:22999
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /workspace/challenges-Jayanth-sharma
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /ide/node
+# environment
+GITPOD_THEIA_PORT = 23000
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GITPOD_ANALYTICS_WRITER = segment
+# environment
+GO_VERSION = 1.18.4
+# environment
+MAVEN_HOME = /home/gitpod/.sdkman/candidates/maven/current
+# makefile
+MAKEFILE_LIST := 
+# environment
+GITPOD_WORKSPACE_CONTEXT_URL = https://github.com/vyomasystems-lab/challenges-Jayanth-sharma
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+THEIA_WORKSPACE_ROOT = /workspace/challenges-Jayanth-sharma
+# environment
+INFOPATH = :/home/linuxbrew/.linuxbrew/share/info
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+GIT_EDITOR = /ide/bin/remote-cli/gitpod-code --wait
+# environment
+VSCODE_CWD = /ide
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /ide/bin/remote-cli:/home/gitpod/.nix-profile/bin:/workspace/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/workspace/.cargo/bin:/home/gitpod/.rvm/gems/ruby-2.7.6/bin:/home/gitpod/.rvm/gems/ruby-2.7.6@global/bin:/home/gitpod/.rvm/rubies/ruby-2.7.6/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/ide/bin/remote-cli:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/home/gitpod/.nvm/versions/node/v16.16.0/bin:/home/gitpod/.pyenv/bin:/workspace/.rvm/bin:/home/gitpod/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/gitpod/.nvm/versions/node/v16.16.0/bin:/home/gitpod/.rvm/bin:/home/gitpod/.nvm/versions/node/v16.16.0/bin:/home/gitpod/.nvm/versions/node/v16.16.0/bin
+# environment
+GITPOD_OWNER_ID = 5bbe19e3-3432-4665-a711-8ab9d80128bd
+# environment
+GITPOD_WORKSPACE_ID = vyomasystem-challengesj-gj5hp164qpu
+# environment
+GITPOD_INTERVAL = 30000
+# environment
+CARGO_HOME = /workspace/.cargo
+# environment
+rvm_stored_umask = 0022
+# environment
+GITPOD_WORKSPACE_CLUSTER_HOST = ws-us54.gitpod.io
+# environment
+GITPOD_ANALYTICS_SEGMENT_KEY = bUY8IRdJ42KjLOBS9LoIHMYFBD8rSzjU
+# environment
+SDKMAN_DIR = /home/gitpod/.sdkman
+# environment
+GITPOD_REPO_ROOTS = /workspace/challenges-Jayanth-sharma
+# environment
+GP_PYENV_MIRROR = /workspace/.pyenv_mirror
+# environment
+GOPATH = /workspace/go
+# environment
+SDKMAN_PLATFORM = linuxx64
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PYENV_ROOT = /home/gitpod/.pyenv
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-f7dffcec-1b94-4bea-8ea9-49ba5fee123b.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+NIX_VERSION = 2.6.0
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+GP_PREVIEW_BROWSER = /ide/bin/remote-cli/gitpod-code --preview
+# automatic
+*F = $(notdir $*)
+# environment
+VISUAL = /ide/bin/remote-cli/gitpod-code
+# environment
+NIX_SSL_CERT_FILE = /etc/ssl/certs/ca-certificates.crt
+# environment
+rvm_bin_path = /home/gitpod/.rvm/bin
+# environment
+WORKSPACEKIT_WRAP_NETNS = true
+# default
+.LOADED := 
+# environment
+GEM_HOME = /home/gitpod/.rvm/gems/ruby-2.7.6
+# environment
+MANPATH = /home/gitpod/.nix-profile/share/man:/home/gitpod/.nix-profile/share/man:/home/gitpod/.nix-profile/share/man:/home/gitpod/.nix-profile/share/man::/home/linuxbrew/.linuxbrew/share/man
+# environment
+NODE_VERSION = 16.16.0
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PYENV_SHELL = bash
+# environment
+HOME = /home/gitpod
+# environment
+THEIA_WEBVIEW_EXTERNAL_ENDPOINT = webview-{{hostname}}
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+GITPOD_CLI_APITOKEN = 64siPkvJ7pytEXW0WbV9GbBPeVp317Nr
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = vyomasystem-challengesj-gj5hp164qpu
+# environment
+GP_PYENV_INIT = true
+# environment
+GRADLE_USER_HOME = /workspace/.gradle/
+# environment
+MAKELEVEL := 0
+# environment
+GEM_PATH = /home/gitpod/.rvm/gems/ruby-2.7.6:/home/gitpod/.rvm/gems/ruby-2.7.6@global
+# environment
+SDKMAN_VERSION = 5.15.0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+IRBRC = /home/gitpod/.rvm/rubies/ruby-2.7.6/.irbrc
+# environment
+SHLVL = 0
+# environment
+NIX_PROFILES = /nix/var/nix/profiles/default /home/gitpod/.nix-profile
+# environment
+GITPOD_GIT_USER_NAME = Jayanth-sharma
+# environment
+JAVA_HOME = /home/gitpod/.sdkman/candidates/java/current
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = gitpod
+# makefile
+.DEFAULT_GOAL := 
+# environment
+GOROOT = /home/gitpod/go
+# environment
+GITPOD_IDE_ALIAS = code
+# environment
+rvm_version = 1.29.12 (latest)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+GITPOD_REPO_ROOT = /workspace/challenges-Jayanth-sharma
+# environment
+THEIA_RATELIMIT_LOG = 50
+# environment
+THEIA_MINI_BROWSER_HOST_PATTERN = browser-{{hostname}}
+# environment
+GITPOD_GIT_USER_EMAIL = Jayanthsharma25@gmail.com
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /
+# default
+.VARIABLES := 
+# environment
+GITPOD_WORKSPACE_CLASS = default
+# environment
+GITPOD_PREVENT_METADATA_ACCESS = true
+# environment
+GITPOD_HOST = https://gitpod.io
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /home/gitpod/.nvm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+PYENV_HOOK_PATH = /home/gitpod/.gp_pyenv.d
+# environment
+rvm_user_install_flag = 1
+# environment
+BROWSER = /ide/bin/helpers/browser.sh
+# environment
+GITPOD_MEMORY = 3435
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# environment
+GITPOD_CODE_HOST = https://gitpod.io
+# environment
+HOMEBREW_NO_AUTO_UPDATE = 1
+# automatic
+<F = $(notdir $<)
+# environment
+GP_PYENV_FAKEROOT = /workspace/.pyenv_mirror/fakeroot
+# environment
+PIPENV_VENV_IN_PROJECT = true
+# environment
+TRIGGER_REBUILD = 1
+# environment
+GP_EXTERNAL_BROWSER = /ide/bin/remote-cli/gitpod-code --openExternal
+# environment
+SDKMAN_CANDIDATES_DIR = /home/gitpod/.sdkman/candidates
+# environment
+EDITOR = /ide/bin/remote-cli/gitpod-code
+# environment
+PWD = /workspace/challenges-Jayanth-sharma
+# environment
+LC_ALL = C
+# environment
+GITPOD_WORKSPACE_CONTEXT = {"isFile":false,"path":"","title":"vyomasystems-lab/challenges-Jayanth-sharma - master","ref":"master","refType":"branch","revision":"afbd0a7a44457eb59a66f99854acd9fb63cb3054","repository":{"cloneUrl":"https://github.com/vyomasystems-lab/challenges-Jayanth-sharma.git","host":"github.com","name":"challenges-Jayanth-sharma","owner":"vyomasystems-lab","private":true},"normalizedContextURL":"https://github.com/vyomasystems-lab/challenges-Jayanth-sharma","checkoutLocation":"challenges-Jayanth-sharma"}
+# environment
+JAVA_TOOL_OPTIONS =  -Xmx3435m
+# automatic
+^F = $(notdir $^)
+# environment
+rvm_prefix = /home/gitpod
+# default
+SUFFIXES := 
+# environment
+APACHE_DOCROOT_IN_REPO = public
+# environment
+PYENV_VIRTUALENV_INIT = 1
+# environment
+NGINX_DOCROOT_IN_REPO = public
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+rvm_loaded_flag = 1
+# environment
+GITPOD_INSTANCE_ID = a964b167-ece4-4dbd-a513-7c39f71a3bce
+# environment
+GITPOD_WORKSPACE_URL = https://vyomasystem-challengesj-gj5hp164qpu.ws-us54.gitpod.io
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+MY_RUBY_HOME = /home/gitpod/.rvm/rubies/ruby-2.7.6
+# variable set hash-table stats:
+ 
+# Load=137/1024=13%, Rehash=0, Collisions=15/159=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2346, inode 3355750430): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 22 / storage = 233 B / avg = 10 B
+# current buf: size = 8162 B / used = 233 B / count = 22 / avg = 10 B
+
+# strcache performance: lookups = 25 / hit rate = 12%
+# hash-table stats:
+# Load=22/8192=0%, Rehash=0, Collisions=1/25=4%
+# Finished Make data base on Wed Jul 27 03:11:12 2022
+
+ 

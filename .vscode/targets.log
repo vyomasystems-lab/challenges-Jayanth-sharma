@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jul 27 03:11:12 2022
+# Make data base, printed on Thu Jul 28 09:38:15 2022
 
 # Variables
 
@@ -103,7 +103,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/gitpod/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-f7dffcec-1b94-4bea-8ea9-49ba5fee123b.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-f3677656-495f-473f-b80c-e89ad444b1d3.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -145,7 +145,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
-GITPOD_CLI_APITOKEN = 64siPkvJ7pytEXW0WbV9GbBPeVp317Nr
+GITPOD_CLI_APITOKEN = KS9EXSGBVgwW.rMao.TLgwuZ2-ksMejB
 # automatic
 +F = $(notdir $+)
 # environment
@@ -222,6 +222,7 @@ MFLAGS = -pqrR
 NVM_DIR = /home/gitpod/.nvm
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+ 
 # environment
 PYENV_HOOK_PATH = /home/gitpod/.gp_pyenv.d
 # environment
@@ -277,7 +278,7 @@ NGINX_DOCROOT_IN_REPO = public
 # environment
 rvm_loaded_flag = 1
 # environment
-GITPOD_INSTANCE_ID = a964b167-ece4-4dbd-a513-7c39f71a3bce
+GITPOD_INSTANCE_ID = 8e25a5cb-f326-498d-b16f-b541571f1ffd
 # environment
 GITPOD_WORKSPACE_URL = https://vyomasystem-challengesj-gj5hp164qpu.ws-us54.gitpod.io
 # default
@@ -287,7 +288,6 @@ LANG = C
 # environment
 MY_RUBY_HOME = /home/gitpod/.rvm/rubies/ruby-2.7.6
 # variable set hash-table stats:
- 
 # Load=137/1024=13%, Rehash=0, Collisions=15/159=9%
 
 # Pattern-specific Variable Values
@@ -296,7 +296,7 @@ MY_RUBY_HOME = /home/gitpod/.rvm/rubies/ruby-2.7.6
 
 # Directories
 
-# . (device 2346, inode 3355750430): 14 files, no impossibilities.
+# . (device 2346, inode 2416321438): 14 files, no impossibilities.
 
 # 14 files, no impossibilities in 1 directories.
 
@@ -354,6 +354,6 @@ GNUmakefile:
 # strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=1/25=4%
-# Finished Make data base on Wed Jul 27 03:11:12 2022
+# Finished Make data base on Thu Jul 28 09:38:15 2022
 
  
